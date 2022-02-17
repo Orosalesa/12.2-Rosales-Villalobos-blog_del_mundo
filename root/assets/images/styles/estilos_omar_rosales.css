@@ -1,0 +1,26 @@
+/* referencia por palabra clave */
+body{
+    background-color: black;
+    color:rgb(255, 255, 255)
+
+
+}
+
+article{
+    background-color:rgb(44, 43, 43);
+
+}
+
+nav>ul>li .resaltado {
+    color: yellow;
+
+}
+
+#titulo_de_blog{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+
+
