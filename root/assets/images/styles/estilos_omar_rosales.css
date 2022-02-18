@@ -1,19 +1,13 @@
 /* referencia por palabra clave */
 body{
     background-color: black;
-    color:rgb(255, 255, 255)
-
-
+    color:#FFFFFF
 }
 
 article{
     background-color:rgb(44, 43, 43);
-
-}
-
-nav>ul>li .resaltado {
-    color: yellow;
-
+    padding:1.5rem;
+    border: 1px solid #FFFFFF
 }
 
 #titulo_de_blog{
@@ -21,6 +15,31 @@ nav>ul>li .resaltado {
     font-size: 3rem;
 
 }
+.resaltado {
+    color: yellow;
 
+}
 
+nav>ul>li {
+    list-style: none;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+}
+
+#footer_blog {
+    margin: 2rem;
+}
+
+.ilustracion {
+    display: inline-block;
+    border: 4px solid #FFFFFF    
+}
+
+.ilustracion figcaption {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
 
